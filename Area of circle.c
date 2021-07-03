@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <nsp.h>
 int main()
 {
    int circle_radius;
