@@ -1,30 +1,31 @@
 #include<stdio.h>
-int area(int );
-int cir(int );
+float area(float );
+float cir(float );
 #define pi (3.14)
 int main()
 {
-	int r,ans,result;
+	int r;
+	float ans,result;
 	printf("enter radius:");
 	scanf("%d",&r);
 	ans=area(r);
-	printf("Area of circle:%.2d\n",ans);
+	printf("Area of circle:%.2f\n",ans);
 	result=cir(r);
-	printf("circumference of circle:%.2d",result);
+	printf("circumference of circle:%.2f",result);
 	
 	return 0;
 }
 
-int area(int a)
+float area(float a)
 {
-	int c;
+	float c;
 	c=pi*a*a;
 
 	return(c);
 }
-int cir(int a)
+float cir(float a)
 {
-	int c;
+	float c;
 	c=2*pi*a;
 	return(c);
 }
