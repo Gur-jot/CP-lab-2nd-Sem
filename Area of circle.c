@@ -10,6 +10,5 @@ int main()
    printf("\nArea of circle is: %f",circle_area);
    circle_circumf = 2 * PI_VALUE * circle_radius;
    printf("\nCircumference of circle is: %f",circle_circumf);
-
    return 0;
 }
